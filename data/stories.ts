@@ -56,7 +56,6 @@ export interface FeatureCard {
   field: StoryField;
   locationBeat: string;
   badge: CertaintyBadge;
-  statTag: string;
   headline: string;
   summary: string;
   sceneKey:
@@ -149,7 +148,7 @@ export const LEAD_CARDS: LeadCard[] = [
     badge: 'CONFIRMED',
     headline: 'Nor’easter postpones Macy’s Parade for first time in 100 years',
     summary:
-      'High winds and torrential rain cut power to 900,000+ homes across the East Coast, cancel 400+ flights and push NYC’s Thanksgiving parade to Saturday.',
+      'High winds and torrential rain cut power to 900,000+ homes, cancel 400+ flights and move NYC’s Thanksgiving parade to Saturday. (AP · Guardian)',
     takeaway: 'First weather postponement in the parade’s century-long history',
     sceneKey: 'noreaster',
   },
@@ -161,7 +160,7 @@ export const LEAD_CARDS: LeadCard[] = [
     badge: 'CONFIRMED',
     headline: 'Drone strike in Kuwait kills two Italian Rheinmetall technicians',
     summary:
-      'Drone hits a Kuwaiti air-defense site; Italy and Kuwait blame Iran, while Tehran denies any role and offers a joint investigation into the strike.',
+      'Drone hits a Kuwaiti air-defense site; Italy and Kuwait blame Iran, while Tehran denies any role and offers a joint investigation. (Reuters · CNN)',
     takeaway: 'Gulf hostilities claim European defense personnel on Kuwaiti soil',
     sceneKey: 'kuwaitdrone',
   },
@@ -173,7 +172,7 @@ export const LEAD_CARDS: LeadCard[] = [
     badge: 'OFFICIAL',
     headline: 'EU taps Spain’s Hernández de Cos to lead ECB; aid talks clash',
     summary:
-      'Eurozone leaders back former Bank of Spain governor to succeed Lagarde in Feb 2027 as Brussels summit splits over €1.6tn budget and €45bn Ukraine loan.',
+      'Leaders back former Bank of Spain chief to succeed Lagarde in Feb 2027 as Brussels splits over €1.6tn budget and €45bn Ukraine loan. (EU · Guardian)',
     takeaway: 'First Spaniard named to chair the eurozone’s central bank',
     sceneKey: 'ecbsummit',
   },
@@ -186,9 +185,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'War',
     locationBeat: 'JAZAN, SAUDI · WAR',
     badge: 'CONFIRMED',
-    statTag: '1 KILLED',
     headline: 'Projectile hits Saudi Jazan refinery, killing 1 worker',
-    summary: 'Strike sparks fire and temporary shutdown near Yemen border; coalition hits Sanaa & Hodeidah.',
+    summary: 'Strike sparks fire and shutdown near Yemen border; coalition hits Sanaa & Hodeidah. (Reuters)',
     sceneKey: 'jazan',
   },
   {
@@ -197,9 +195,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Markets',
     locationBeat: 'SEOUL · MARKETS',
     badge: 'OFFICIAL',
-    statTag: '3.25% RATE',
     headline: 'Bank of Korea raises rate 25 bps to two-year high',
-    summary: '5–2 vote lifts base rate to 3.25% on AI-led chip boom and 2.8% inflation; 2026 GDP view at 3.9%.',
+    summary: '5–2 vote lifts base rate to 3.25% on AI chip boom and 2.8% CPI; 2026 GDP view 3.9%. (BoK)',
     sceneKey: 'bokrate',
   },
   {
@@ -208,9 +205,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Tech',
     locationBeat: 'ZURICH · GLOBAL · TECH',
     badge: 'OFFICIAL',
-    statTag: '12+ GB',
     headline: 'FIFA confirms cyberattack stole legal & financial files',
-    summary: 'World football body discloses breach of limited personal and business data after extortion fails.',
+    summary: 'World football body discloses 12+ GB breach of limited files after extortion fails. (AP · DW)',
     sceneKey: 'fifacyber',
   },
   {
@@ -219,9 +215,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Migration',
     locationBeat: 'LONDON · MIGRATION',
     badge: 'OFFICIAL',
-    statTag: '77,000 NET',
     headline: 'UK net migration plunges to 77,000, lowest since 1997',
-    summary: 'ONS data for year to June 2026 shows sharp drop in non-EU work, study and asylum arrivals.',
+    summary: 'ONS year-to-June data shows sharp fall in non-EU work, study and asylum arrivals. (ONS)',
     sceneKey: 'ukmigration',
   },
   {
@@ -230,9 +225,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Disaster',
     locationBeat: 'BANGKOK · DISASTER',
     badge: 'CONFIRMED',
-    statTag: '7 INJURED',
     headline: 'Explosion and fire rock Bangkok’s Bangchak refinery',
-    summary: 'Blast at Phra Khanong plant sends black smoke over capital, injuring seven and halting units.',
+    summary: 'Blast at Phra Khanong plant sends black smoke over capital, injuring seven. (Reuters)',
     sceneKey: 'bangkokfire',
   },
   {
@@ -241,9 +235,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Economy',
     locationBeat: 'BUENOS AIRES · ECONOMY',
     badge: 'OFFICIAL',
-    statTag: 'BCRA LAW',
     headline: 'Argentina Congress bans central bank money-printing',
-    summary: 'Overhaul bars BCRA from funding fiscal deficits and narrows mandate to defending the peso.',
+    summary: 'Charter law bars BCRA from funding deficits and focuses mandate on the peso. (WashPost)',
     sceneKey: 'argentinabcra',
   },
   {
@@ -252,9 +245,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Justice',
     locationBeat: 'NAIROBI · JUSTICE',
     badge: 'OFFICIAL',
-    statTag: 'HALTED',
     headline: 'Kenya court halts US-backed Laikipia Ebola facility',
-    summary: 'High Court rules deal breached transparency rules and orders full disclosure within 45 days.',
+    summary: 'High Court cites lack of public participation and orders pact disclosure in 45 days. (AA)',
     sceneKey: 'kenyacourt',
   },
   {
@@ -263,9 +255,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Security',
     locationBeat: 'COLOGNE · SECURITY',
     badge: 'OFFICIAL',
-    statTag: '2 HELD',
     headline: 'Germany arrests two over alleged synagogue bomb plot',
-    summary: '250 police raid 17 sites; prosecutors link Iraqi suspects to pro-Iran terror network.',
+    summary: '250 police raid 17 sites; prosecutors link Iraqi suspects to pro-Iran terror network. (CBS)',
     sceneKey: 'germanycell',
   },
   {
@@ -274,9 +265,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Space',
     locationBeat: 'ORBIT · ISS · SPACE',
     badge: 'OFFICIAL',
-    statTag: '3 TONS',
     headline: 'Progress 97 docks at ISS with Thanksgiving supplies',
-    summary: 'Roscosmos cargo craft links autonomously to Rassvet module for Expedition 75 crew.',
+    summary: 'Roscosmos craft links to Rassvet module delivering 3 tons of cargo to Expedition 75. (NASA)',
     sceneKey: 'progress97',
   },
   {
@@ -285,9 +275,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
     field: 'Tech',
     locationBeat: 'CANBERRA · TECH',
     badge: 'OFFICIAL',
-    statTag: '5% FINES',
     headline: 'Australia enacts Digital Duty of Care Act on platforms',
-    summary: 'Law imposes safety duties on social media and AI chatbots with fines up to 5% of turnover.',
+    summary: 'Law sets safety duties on social media and AI bots with fines up to 5% of turnover. (AP)',
     sceneKey: 'australiaduty',
   },
 ];
@@ -295,8 +284,8 @@ export const FEATURE_CARDS: FeatureCard[] = [
 // 36 strictly single-story dateline briefs (1 line = 1 story = 1 dateline; 18 left + 18 right = 49 exact)
 export const BRIEFS_LEFT: BriefItem[] = [
   { num: 14, region: 'EU', field: 'Security', place: 'Brussels', text: 'EU sanctions 15 Russian military-industrial firms over dual-use tech' },
-  { num: 15, region: 'EU', field: 'Energy', place: 'Zaporizhzhia', text: 'IAEA says nuclear plant lost last 330 kV line, on diesel 28th time' },
-  { num: 16, region: 'EU', field: 'War', place: 'Kyiv', text: 'Ukraine military says Russian troop losses topped 50,000 in a month', tag: 'CLAIM' },
+  { num: 15, region: 'EU', field: 'Energy', place: 'Zaporizhzhia', text: 'IAEA confirms nuclear plant lost last 330 kV line, relies on diesel' },
+  { num: 16, region: 'EU', field: 'Diplomacy', place: 'Bratislava', text: 'Slovakia, Hungary & Czechia seek opt-outs from EU’s €45bn Ukraine loan' },
   { num: 17, region: 'EU', field: 'Diplomacy', place: 'Berlin', text: 'Germany & Italy warn Kyiv against drone strikes far from frontline' },
   { num: 18, region: 'EU', field: 'Diplomacy', place: 'London', text: 'UK publishes post-Brexit EU reset treaties on agrifood & youth mobility' },
   { num: 19, region: 'EU', field: 'Culture', place: 'London', text: 'BBC launches Met Office weather alliance after 8-year gap; ice alerts' },
@@ -309,7 +298,7 @@ export const BRIEFS_LEFT: BriefItem[] = [
   { num: 26, region: 'ME', field: 'Diplomacy', place: 'Riyadh', text: 'Saudi & Turkish FMs head to Pakistan for trilateral defense pact talks' },
   { num: 27, region: 'ME', field: 'War', place: 'Beirut', text: 'Israeli airstrikes hit targets across southern Lebanon & southern Syria' },
   { num: 28, region: 'EA', field: 'Markets', place: 'Taipei', text: 'Asian chips rebound: Taiex +2.5%, Hang Seng +1.2%, Nikkei +0.9%' },
-  { num: 29, region: 'EA', field: 'Trade', place: 'Beijing', text: 'China condemns proposed US Section 301 tariffs, reserves response' },
+  { num: 29, region: 'EA', field: 'Trade', place: 'Beijing', text: 'China issues formal rebuttal to US trade plan, reserves response' },
   { num: 30, region: 'EA', field: 'Diplomacy', place: 'Beijing', text: 'Premier Li Qiang meets ADB chief Masato Kanda on regional trade' },
   { num: 31, region: 'EA', field: 'Security', place: 'Pyongyang', text: 'Kim Jong Un inspects nuclear site, vows wider tactical arsenal', tag: 'REPORTED' },
 ];
@@ -317,7 +306,7 @@ export const BRIEFS_LEFT: BriefItem[] = [
 export const BRIEFS_RIGHT: BriefItem[] = [
   { num: 32, region: 'EA', field: 'Security', place: 'Tokyo', text: 'Japan weighs ¥56.3tn five-year defense budget starting in FY 2027', tag: 'REPORTED' },
   { num: 33, region: 'EA', field: 'Security', place: 'Taipei', text: 'Taiwan tracks fresh Chinese warplane sorties ahead of local elections' },
-  { num: 34, region: 'SA', field: 'Trade', place: 'Hanoi', text: 'ASEAN, EU & CPTPP trade ministers meet to navigate US tariff wave' },
+  { num: 34, region: 'SA', field: 'Trade', place: 'Hanoi', text: 'ASEAN, EU & CPTPP trade ministers meet in Vietnam on supply chains' },
   { num: 35, region: 'SA', field: 'Energy', place: 'Jakarta', text: 'Vena Energy secures $113m green refinancing for wind & solar assets' },
   { num: 36, region: 'SA', field: 'Sport', place: 'Manila', text: 'Philippines opens inaugural ASTAF U-19 Asian Sepak Takraw event' },
   { num: 37, region: 'SA', field: 'Rights', place: 'Mumbai', text: 'India marks anniversary of 2008 Mumbai terror attacks with tributes' },
@@ -330,7 +319,7 @@ export const BRIEFS_RIGHT: BriefItem[] = [
   { num: 44, region: 'NA', field: 'Sport', place: 'US · NFL', text: 'Thanksgiving thrillers: Bears 39–35, Eagles 39–38, Bills 13–10 Chiefs' },
   { num: 45, region: 'NA', field: 'Diplomacy', place: 'Florida', text: 'Trump & NATO chief Rutte urge Russia not to expand Ukraine war' },
   { num: 46, region: 'NA', field: 'Transport', place: 'Ontario', text: 'Freezing rain storm triggers emergency alerts across parts of Canada' },
-  { num: 47, region: 'LA', field: 'Trade', place: 'Brasília', text: 'Embraer & Brazil reject proposed 10% US tariff on Brazilian aircraft' },
+  { num: 47, region: 'LA', field: 'Trade', place: 'Brasília', text: 'Embraer & Brazil’s ALADA sign KC-390 & A-29 defense export framework' },
   { num: 48, region: 'LA', field: 'Tech', place: 'São Paulo', text: 'Kaszek closes record $650m early-stage fund for Latin American AI' },
   { num: 49, region: 'OC', field: 'Space', place: 'Mahia, NZ', text: 'Rocket Lab launches 101st Electron rocket carrying Synspective radar' },
 ];
@@ -338,7 +327,7 @@ export const BRIEFS_RIGHT: BriefItem[] = [
 // 11 geographic numbered pins for illustrated stories (#6 FIFA & #12 ISS are Global/Space chips below map)
 export const MAP_PINS: GeoPin[] = [
   { num: 1, region: 'NA', x: 96, y: 47 },    // New York / US East Coast
-  { num: 7, region: 'EU', x: 148, y: 36 },   // London (clearly separated from #3 & #11)
+  { num: 7, region: 'EU', x: 148, y: 36 },   // London
   { num: 3, region: 'EU', x: 165, y: 48 },   // Brussels / Frankfurt
   { num: 11, region: 'EU', x: 183, y: 35 },  // Cologne / Heidelberg
   { num: 2, region: 'ME', x: 218, y: 61 },   // Kuwait
@@ -355,8 +344,8 @@ export const MAP_BRIEF_DOTS: { region: RegionCode; x: number; y: number }[] = [
   // EU (10)
   { region: 'EU', x: 165, y: 49 }, // #14 Brussels sanctions
   { region: 'EU', x: 197, y: 44 }, // #15 Zaporizhzhia
-  { region: 'EU', x: 193, y: 38 }, // #16 Kyiv
-  { region: 'EU', x: 176, y: 45 }, // #17 Berlin/Rome
+  { region: 'EU', x: 181, y: 44 }, // #16 Bratislava
+  { region: 'EU', x: 176, y: 40 }, // #17 Berlin/Rome
   { region: 'EU', x: 153, y: 44 }, // #18 London EU reset
   { region: 'EU', x: 158, y: 36 }, // #19 London BBC Met Office
   { region: 'EU', x: 160, y: 44 }, // #20 London Lord Mann
@@ -370,7 +359,7 @@ export const MAP_BRIEF_DOTS: { region: RegionCode; x: number; y: number }[] = [
   { region: 'ME', x: 201, y: 57 }, // #27 Beirut
   // EA (6)
   { region: 'EA', x: 284, y: 69 }, // #28 Taipei chips
-  { region: 'EA', x: 277, y: 47 }, // #29 Beijing tariffs
+  { region: 'EA', x: 277, y: 47 }, // #29 Beijing rebuttal
   { region: 'EA', x: 281, y: 52 }, // #30 Beijing ADB
   { region: 'EA', x: 289, y: 45 }, // #31 Pyongyang
   { region: 'EA', x: 307, y: 56 }, // #32 Tokyo defense
@@ -392,14 +381,14 @@ export const MAP_BRIEF_DOTS: { region: RegionCode; x: number; y: number }[] = [
   { region: 'NA', x: 86, y: 63 },  // #45 Florida
   { region: 'NA', x: 84, y: 37 },  // #46 Ontario
   // LA (2)
-  { region: 'LA', x: 117, y: 118 }, // #47 Brasília
+  { region: 'LA', x: 117, y: 118 }, // #47 Brasília Embraer/ALADA
   { region: 'LA', x: 119, y: 126 }, // #48 São Paulo
   // OC (1)
   { region: 'OC', x: 322, y: 147 }, // #49 Mahia, NZ
 ];
 
 export const EXCLUDED_WED_25 =
-  'USTR 14-nation tariff launch · Kospi –6.2% chip rout · Shenzhou-24 Tiangong dock · Cairo tanker fire (31+) · Ofgem +26% cap · West Java gold pit · AU–Solomons pact · Dhaka garment wage · Ramaphosa court · Nigeria meth bust';
+  'Initial US Section 301 rollout · Kospi –6.2% chip rout · Shenzhou-24 Tiangong dock · Cairo tanker fire (31+) · Ofgem +26% cap · West Java gold pit · AU–Solomons pact · Dhaka garment wage · Ramaphosa court · Nigeria meth bust';
 
 export const EXCLUDED_FRI_27 =
   'NZ final election result · Copernicus 2°C 7-day climate alert · AFAC Australia bushfire outlook · BoE Governor tax warning · Fri Asia Nikkei/Kospi open';

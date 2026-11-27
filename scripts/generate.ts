@@ -114,7 +114,7 @@ function buildDocument(): string {
     const lastCls = idx % 5 === 4 ? 'feat-last' : '';
     return `
     <article class="feat-col ${rowCls} ${lastCls}">
-      <div class="feat-art">${renderFeatureScene(f.sceneKey, f.num, reg.color, f.statTag)}</div>
+      <div class="feat-art">${renderFeatureScene(f.sceneKey, f.num, reg.color)}</div>
       <div class="feat-meta">
         <span class="feat-loc" style="color:${reg.color}">${escapeHtml(f.locationBeat)}</span>
         <span class="feat-pill" style="${badgeCss(f.badge)}">${escapeHtml(f.badge)}</span>
