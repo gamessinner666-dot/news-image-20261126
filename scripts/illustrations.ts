@@ -146,9 +146,9 @@ export function renderLeadScene(key: 'noreaster' | 'kuwaitdrone' | 'ecbsummit'):
     <circle cx="104" cy="52" r="36" fill="none" stroke="#E8BC66" stroke-width="2.2" stroke-dasharray="2.4,16.4"/>
     <circle cx="104" cy="52" r="25" fill="#1D4ED8" stroke="#E8BC66" stroke-width="2"/>
     <text x="104" y="65" text-anchor="middle" font-family="Georgia,serif" font-size="37" font-weight="800" fill="#F4D37B">€</text>
-    <!-- Frankfurt ECB slanted glass twin towers (center-right) -->
+    <!-- Frankfurt ECB slanted glass twin towers (center-right) with 3D light/shade planes -->
     <polygon points="166,92 178,12 198,12 190,92" fill="#689CC7" stroke="#142942" stroke-width="1"/>
-    <polygon points="196,92 204,20 224,20 218,92" fill="#8BB9DC" stroke="#142942" stroke-width="1"/>
+    <polygon points="196,92 204,20 224,20 218,92" fill="#A4CCE8" stroke="#142942" stroke-width="1"/>
     <!-- Architectural atrium cross-braces -->
     <g stroke="#18304C" stroke-width="1">
       <line x1="175" y1="30" x2="195" y2="30"/><line x1="172" y1="50" x2="193" y2="50"/><line x1="169" y1="70" x2="191" y2="70"/>
